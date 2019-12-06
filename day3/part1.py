@@ -14,6 +14,7 @@ def memoize(path):
     di = defaultdict(set)
     for p in path:
         di[p[0]].add(p[1])
+    return di
 
 with open("input.txt", "r") as f:
     
@@ -45,5 +46,5 @@ with open("input.txt", "r") as f:
                     m = [p, r]
     print(m)
     print(m[0] + m[1])
-# 3931283
+# 557
     

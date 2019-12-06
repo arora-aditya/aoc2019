@@ -48,5 +48,5 @@ with open("input.txt", "r") as f:
                     m = [[p, r, L1_y[r]], [p, r, L2_y[r]]]
     print(m)
     print(m[0][2] + m[1][2])
-# 3931283
+# 56410
     

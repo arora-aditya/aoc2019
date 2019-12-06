@@ -35,5 +35,5 @@ with open("input.txt", "r") as f:
             count += 1
             print(i)
     print(count)
-# 1019
+# 660
     

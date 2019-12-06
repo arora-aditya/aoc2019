@@ -10,3 +10,4 @@ with open("input.txt", "r") as f:
             if fuel >= 0:
                 su += fuel
     print(su)
+# 4900568
