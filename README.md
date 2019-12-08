@@ -13,4 +13,5 @@ My solutions to this year's problems linked [here](https://adventofcode.com/2019
 | 5   	| Sunny with a Chance of Asteroids   	| 1910     	| 1776     	|
 | 6   	| Universal Orbit Map                	| 1700     	| 1139     	|
 | 7   	| Amplification Circuit              	| 755      	| 248      	|
-| 8   	|                                    	|          	|          	|
+| 8   	| Space Image Format                 	| 272      	| 404      	|
+| 9   	|                                    	|          	|          	|
