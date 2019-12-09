@@ -1,0 +1,47 @@
+{
+  "1" : {
+    "name": "The Tyranny of the Rocket Equation",
+    "part1": 44985,
+    "part2": 39687
+  },
+  "2": {
+    "name": "1202 Program Alarm",
+    "part1": 24370,
+    "part2": 21508
+  },
+  "3": {
+    "name": "Crossed Wires",
+    "part1": 14074,
+    "part2": 11301
+  },
+  "4": {
+    "name": "Secure Container",
+    "part1": 17633,
+    "part2": 15506
+  },
+  "5": {
+    "name": "Sunny with a Chance of Asteroids",
+    "part1": 1910,
+    "part2": 1776
+  },
+  "6": {
+    "name": "Universal Orbit Map",
+    "part1": 1700,
+    "part2": 1139
+  },
+  "7": {
+    "name": "Amplification Circuit",
+    "part1": 755,
+    "part2": 248
+  },
+  "8": {
+    "name": "Space Image Format",
+    "part1": 272,
+    "part2": 404
+  },
+  "9": {
+    "name": "",
+    "part1": "",
+    "part2": ""
+  }
+}

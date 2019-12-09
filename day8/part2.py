@@ -1,7 +1,6 @@
 from collections import defaultdict
 from itertools import permutations 
 import numpy as np
-from pprint import pprint as print
 from PIL import Image
 
 def get_pixel(row):
@@ -18,16 +17,21 @@ with open('input.txt') as f:
     for i in range(L//S):
         layer = line[i*S:(i+1)*S]
         layers.append(layer)
-        # print(len(layer), num_zeros, num_ones, num_twos )
     ans = layers[-1]
     transposed = np.transpose(layers)
     for i in range(len(transposed)):
         ans[i] = get_pixel(transposed[i])
-    # print(len(test[0]))
-    # print(test[0])
     ans = [ans[j*W:(j+1)*W] for j in range(H)]
-    print(ans)
+    for i in range(H):
+        for j in range(W):
+            if ans[i][j] == 1:
+                print('0', end='')
+            else:
+                print(' ', end='')
+        print('')
     im = Image.fromarray(np.array(ans).reshape((H,W)).astype('uint8')*255)
     im.save('answer_part2.png')
+    im.show()
+
     
 # EJRGP
