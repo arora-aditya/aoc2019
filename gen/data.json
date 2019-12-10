@@ -40,8 +40,13 @@
     "part2": 404
   },
   "9": {
-    "name": "",
-    "part1": "",
-    "part2": ""
+    "name": "Sensor Boost",
+    "part1": 2557,
+    "part2": 2520
+  },
+  "10": {
+    "name": "Monitoring Station",
+    "part1": 970,
+    "part2": 1105
   }
 }
