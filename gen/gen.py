@@ -21,9 +21,13 @@ for day, info in datastore.items():
     max_len_c3 = max(max_len_c3, len(rank1))
     max_len_c4 = max(max_len_c4, len(rank2))
 
+max_len_c2 += 5
+max_len_c3 += 4
+max_len_c4 += 4
+
 table = [
     ['Day', 'Problem', 'Part One', 'Part Two'],
-    ['---', '---------------------------', '--------', '--------'],
+    ['-'*x for x in [max_len_c1, max_len_c2, max_len_c3, max_len_c4]],
 ]
 
 for day, info in datastore.items():
@@ -32,10 +36,6 @@ for day, info in datastore.items():
     rank1 = str(info['part1'])
     rank2 = str(info['part2'])
     table.append([day, name, rank1, rank2])
-
-max_len_c2 += 5
-max_len_c3 += 4
-max_len_c4 += 4
 
 with open('../README.md', 'w') as f:
     for header in headers:
