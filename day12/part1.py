@@ -80,4 +80,5 @@ with open('input.txt') as f:
         # print(planet, velocities_list[i], e)
         ans += e
     print(ans)
+
 # 12082

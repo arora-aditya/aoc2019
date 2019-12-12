@@ -1,7 +1,10 @@
 from collections import defaultdict, namedtuple
 from itertools import permutations 
 from functools import lru_cache
+from queue import Queue
+from threading import Thread
 from fractions import Fraction
+from math import gcd
 # from pprint import pprint as print
 
 INF = float('inf')
@@ -17,8 +20,16 @@ class Velocity(namedtuple('Velocity', ['dx', 'dy', 'dz'])):
         return Velocity(self.dx + o.dx, self.dy + o.dy, self.dz + o.dz)
     def is_zero(self):
         return self.dx == 0 and self.dy == 0 and self.dz == 0
+    def is_zero(self, key):
+        return getattr(self, key) == 0
 
-Planets = namedtuple('Planets', ['p1', 'p2', 'p3', 'p4'])
+class Planets(namedtuple('Planets', ['p1', 'p2', 'p3', 'p4'])):
+    __slots__ = ()
+    def equality(self, first_position, key):
+        for i in range(len(self)):
+            if getattr(self[i], key) != getattr(first_position[i], key):
+                return False
+        return True
 
 def velocities(planet1, planet2):
     # print(planet1, planet2)
@@ -54,7 +65,10 @@ def energy(p, v):
 
 planets = []
 
-with open('input_test_part2.txt') as f:
+def lcm(a, b):
+    return abs(a*b) // gcd(a, b)
+
+with open('input.txt') as f:
     lines = [line.strip() for line in f.readlines()]
     for line in lines:
         planets.append(parse_planet(line))
@@ -65,12 +79,14 @@ with open('input_test_part2.txt') as f:
     
     for i in range(len(planets)):
         planets[i] += velocities_list[i]
-        print({planets[i]: velocities_list[i]})
-    print('*' * 80)
-
+        # print({planets[i]: velocities_list[i]})
     
-    STEPS = 0
-    while True:
+    first_pos = Planets(*planets)
+    
+    x, y, z = 0, 0, 0
+    
+    STEPS = 1
+    while x == 0 or y == 0 or z == 0:
         STEPS += 1
         for i in range(len(planets)):
             for j in range(i+1, len(planets)):
@@ -81,9 +97,28 @@ with open('input_test_part2.txt') as f:
             planets[i] += velocities_list[i]
             # print({planets[i]: velocities_list[i]})
         planets_pos = Planets(*planets)
-        if planets_pos in past_positions:
+        if planets_pos.equality(first_pos, 'x'):
             zeroed = True
-            for v in velocities_list
+            for v in velocities_list:
+                zeroed = zeroed and v.is_zero('dx')
+            if x == 0:
+                x = STEPS
+                # print(f'X: {x}', end='\n\n')
+        if planets_pos.equality(first_pos, 'y'):
+            zeroed = True
+            for v in velocities_list:
+                zeroed = zeroed and v.is_zero('dy')
+            if y == 0:
+                y = STEPS
+                # print(f'Y: {y}', end='\n\n')
+        if planets_pos.equality(first_pos, 'z'):
+            zeroed = True
+            for v in velocities_list:
+                zeroed = zeroed and v.is_zero('dz')
+            if z == 0:
+                z = STEPS
+                # print(f'Z: {z}', end='\n\n')
         past_positions.add(planets_pos)
-    print(STEPS, planets_pos)
-# 278
+        # print(STEPS, end='\r')
+    print(lcm(x, lcm(y,z)))
+# 295693702908636
