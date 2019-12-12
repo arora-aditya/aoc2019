@@ -17,6 +17,7 @@ Day | Problem                                 | Part One  | Part Two  |
 9   | Sensor Boost                            | 2557      | 2520      | 
 10  | Monitoring Station                      | 970       | 1105      | 
 11  | Space Police                            | 1031      | 1226      | 
+12  | The N-Body Problem                      | 6753      | 4698      | 
 
 
-Auto-Generated at 2019-12-11 01:02:06.682106
+Auto-Generated at 2019-12-12 14:03:45.548447
