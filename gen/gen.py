@@ -16,7 +16,7 @@ headers = [
 max_len_c1, max_len_c2, max_len_c3, max_len_c4 = 3,0,0,0
 for day, info in datastore.items():
     name, rank1, rank2 = info['name'], str(info['part1']), str(info['part2'])
-    name = f'[{name}](https://adventofcode.com/2019/day/{day})'
+    name = f'[{name}](https://adventofcode.com/2019/day/{int(day)})'
     max_len_c1 = max(max_len_c1, len(day))
     max_len_c2 = max(max_len_c2, len(name))
     max_len_c3 = max(max_len_c3, len(rank1))
@@ -34,7 +34,7 @@ table = [
 for day, info in datastore.items():
     day = day
     name = info['name']
-    name = f'[{name}](https://adventofcode.com/2019/day/{day})'
+    name = f'[{name}](https://adventofcode.com/2019/day/{int(day)})'
     rank1 = str(info['part1'])
     rank2 = str(info['part2'])
     table.append([day, name, rank1, rank2])
