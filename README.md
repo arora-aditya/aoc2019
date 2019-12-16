@@ -19,7 +19,9 @@ Day | Problem                                                                   
 11  | [Space Police](https://adventofcode.com/2019/day/11)                           | 1031      | 1226      | 
 12  | [The N-Body Problem](https://adventofcode.com/2019/day/12)                     | 6753      | 4698      | 
 13  | [Care Package](https://adventofcode.com/2019/day/13)                           | 327       | 1084      | 
-14  | [Space Stoichiometry](https://adventofcode.com/2019/day/14)                    | 807       | 581       | 
+14  | [Space Stoichiometry](https://adventofcode.com/2019/day/14)                    | 3282      | 2906      | 
+15  | [Oxygen System](https://adventofcode.com/2019/day/15)                          | 807       | 581       | 
+16  | [Flawed Frequency Transmission](https://adventofcode.com/2019/day/16)          | 333       | 297       | 
 
 
-Auto-Generated at 2019-12-16 02:07:46.864872
+Auto-Generated at 2019-12-16 12:39:14.919011
