@@ -22,6 +22,7 @@ Day | Problem                                                                   
 14  | [Space Stoichiometry](https://adventofcode.com/2019/day/14)                    | 3282      | 2906      | 
 15  | [Oxygen System](https://adventofcode.com/2019/day/15)                          | 807       | 581       | 
 16  | [Flawed Frequency Transmission](https://adventofcode.com/2019/day/16)          | 333       | 297       | 
+17  | [Set and Forget](https://adventofcode.com/2019/day/17)                         | 5022      | 3679      | 
 
 
-Auto-Generated at 2019-12-16 12:39:14.919011
+Auto-Generated at 2019-12-17 20:29:33.516472

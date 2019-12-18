@@ -55,6 +55,6 @@ for i in range(1, 101):
     print({i: phase0[:8]})
     
 
-
+# 74608727
         
     
