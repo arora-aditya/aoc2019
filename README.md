@@ -23,7 +23,8 @@ Day | Problem                                                                   
 15  | [Oxygen System](https://adventofcode.com/2019/day/15)                          | 807       | 581       | 
 16  | [Flawed Frequency Transmission](https://adventofcode.com/2019/day/16)          | 333       | 297       | 
 17  | [Set and Forget](https://adventofcode.com/2019/day/17)                         | 5022      | 3679      | 
-18  | [Set and Forget](https://adventofcode.com/2019/day/18)                         | 97        | 136       | 
+18  | [Set and Forget](https://adventofcode.com/2019/day/18)                         | 92        | 136       | 
+19  | [Tractor Beam](https://adventofcode.com/2019/day/19)                           | 861       | 432       | 
 
 
-Auto-Generated at 2019-12-18 02:16:50.869787
+Auto-Generated at 2019-12-19 23:53:09.433592

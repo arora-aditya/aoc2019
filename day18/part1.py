@@ -9,7 +9,7 @@ def parse_file(filename):
         
 TEST = 'input_test_part1.txt'
 REAL = 'input.txt'
-inputs = parse_file(TEST)
+inputs = parse_file(REAL)
 def shortestPathAllKeys(grid):
     R, C = len(grid), len(grid[0])
 

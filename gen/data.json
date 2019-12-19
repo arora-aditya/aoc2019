@@ -86,7 +86,12 @@
   },
   "18": {
     "name": "Set and Forget",
-    "part1": 97,
+    "part1": 92,
     "part2": 136
+  },
+  "19": {
+    "name": "Tractor Beam",
+    "part1": 861,
+    "part2": 432
   }
 }
