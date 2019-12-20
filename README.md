@@ -25,6 +25,7 @@ Day | Problem                                                                   
 17  | [Set and Forget](https://adventofcode.com/2019/day/17)                         | 5022      | 3679      | 
 18  | [Set and Forget](https://adventofcode.com/2019/day/18)                         | 92        | 136       | 
 19  | [Tractor Beam](https://adventofcode.com/2019/day/19)                           | 861       | 432       | 
+20  | [Many-Worlds Interpretation](https://adventofcode.com/2019/day/20)             | 768       | 421       | 
 
 
-Auto-Generated at 2019-12-19 23:53:09.433592
+Auto-Generated at 2019-12-20 02:25:58.408616
