@@ -1,7 +1,11 @@
 import json
 import datetime
 
-with open('data.json', 'r') as f:
+import os 
+data_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data.json'))
+output_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../README.md'))
+
+with open(data_path, 'r') as f:
     datastore = json.load(f)
 
 headers = [
@@ -39,7 +43,7 @@ for day, info in datastore.items():
     rank2 = str(info['part2'])
     table.append([day, name, rank1, rank2])
 
-with open('../README.md', 'w') as f:
+with open(output_path, 'w') as f:
     for header in headers:
         f.write(header + '\n')
     for row in table:

@@ -26,6 +26,7 @@ Day | Problem                                                                   
 18  | [Set and Forget](https://adventofcode.com/2019/day/18)                         | 92        | 136       | 
 19  | [Tractor Beam](https://adventofcode.com/2019/day/19)                           | 861       | 432       | 
 20  | [Many-Worlds Interpretation](https://adventofcode.com/2019/day/20)             | 768       | 421       | 
+21  | [Springdroid Adventure](https://adventofcode.com/2019/day/21)                  | 2790      | 2469      | 
 
 
-Auto-Generated at 2019-12-20 02:25:58.408616
+Auto-Generated at 2019-12-21 22:24:12.308488
