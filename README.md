@@ -27,6 +27,7 @@ Day | Problem                                                                   
 19  | [Tractor Beam](https://adventofcode.com/2019/day/19)                           | 861       | 432       | 
 20  | [Many-Worlds Interpretation](https://adventofcode.com/2019/day/20)             | 768       | 421       | 
 21  | [Springdroid Adventure](https://adventofcode.com/2019/day/21)                  | 2790      | 2469      | 
+22  | [Slam Shuffle](https://adventofcode.com/2019/day/22)                           | 3558      | 1503      | 
 
 
-Auto-Generated at 2019-12-21 22:24:12.308488
+Auto-Generated at 2019-12-22 22:19:52.238730
