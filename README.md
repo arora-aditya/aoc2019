@@ -5,7 +5,7 @@ My solutions to this year's problems linked [here](https://adventofcode.com/2019
 ## Progress
 
 Day | Problem                                                                        | Part One  | Part Two  | 
---- | ------------------------------------------------------------------------------ | --------- | --------- | 
+:-: | :----------------------------------------------------------------------------: | :-------: | :-------: | 
 01  | [The Tyranny of the Rocket Equation](https://adventofcode.com/2019/day/1)      | 44985     | 39687     | 
 02  | [1202 Program Alarm](https://adventofcode.com/2019/day/2)                      | 24370     | 21508     | 
 03  | [Crossed Wires](https://adventofcode.com/2019/day/3)                           | 14074     | 11301     | 
@@ -28,6 +28,9 @@ Day | Problem                                                                   
 20  | [Many-Worlds Interpretation](https://adventofcode.com/2019/day/20)             | 768       | 421       | 
 21  | [Springdroid Adventure](https://adventofcode.com/2019/day/21)                  | 2790      | 2469      | 
 22  | [Slam Shuffle](https://adventofcode.com/2019/day/22)                           | 3558      | 1503      | 
+23  | [Category Six](https://adventofcode.com/2019/day/23)                           | 3710      | 3563      | 
+24  | [](https://adventofcode.com/2019/day/24)                                       |           |           | 
+25  | [](https://adventofcode.com/2019/day/25)                                       |           |           | 
 
 
-Auto-Generated at 2019-12-22 22:19:52.238730
+Auto-Generated at 2019-12-23 19:15:33.294525

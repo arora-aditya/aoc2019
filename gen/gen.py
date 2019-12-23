@@ -32,7 +32,7 @@ max_len_c4 += 4
 
 table = [
     ['Day', 'Problem', 'Part One', 'Part Two'],
-    ['-'*x for x in [max_len_c1, max_len_c2, max_len_c3, max_len_c4]],
+    [':' + '-'*(x-2)+':' for x in [max_len_c1, max_len_c2, max_len_c3, max_len_c4]],
 ]
 
 for day, info in datastore.items():
