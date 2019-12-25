@@ -29,8 +29,8 @@ Day | Problem                                                                   
 21  | [Springdroid Adventure](https://adventofcode.com/2019/day/21)                  | 2790      | 2469      | 
 22  | [Slam Shuffle](https://adventofcode.com/2019/day/22)                           | 3558      | 1503      | 
 23  | [Category Six](https://adventofcode.com/2019/day/23)                           | 3710      | 3563      | 
-24  | [](https://adventofcode.com/2019/day/24)                                       | 4401      | 3261      | 
-25  | [](https://adventofcode.com/2019/day/25)                                       |           |           | 
+24  | [Planet of Discord ](https://adventofcode.com/2019/day/24)                     | 4401      | 3261      | 
+25  | [Cryostasis](https://adventofcode.com/2019/day/25)                             | 3175      | 2179      | 
 
 
-Auto-Generated at 2019-12-24 20:04:09.474526
+Auto-Generated at 2019-12-25 08:55:58.463146
