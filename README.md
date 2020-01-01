@@ -23,7 +23,7 @@ Day | Problem                                                                   
 15  | [Oxygen System](https://adventofcode.com/2019/day/15)                          | 807       | 581       | 
 16  | [Flawed Frequency Transmission](https://adventofcode.com/2019/day/16)          | 333       | 297       | 
 17  | [Set and Forget](https://adventofcode.com/2019/day/17)                         | 5022      | 3679      | 
-18  | [Set and Forget](https://adventofcode.com/2019/day/18)                         | 92        | 136       | 
+18  | [Many-Worlds Interpretation](https://adventofcode.com/2019/day/18)             | 92        | 136       | 
 19  | [Tractor Beam](https://adventofcode.com/2019/day/19)                           | 861       | 432       | 
 20  | [Many-Worlds Interpretation](https://adventofcode.com/2019/day/20)             | 768       | 421       | 
 21  | [Springdroid Adventure](https://adventofcode.com/2019/day/21)                  | 2790      | 2469      | 
@@ -33,4 +33,4 @@ Day | Problem                                                                   
 25  | [Cryostasis](https://adventofcode.com/2019/day/25)                             | 3175      | 2179      | 
 
 
-Auto-Generated at 2019-12-25 08:55:58.463146
+Auto-Generated at 2020-01-02 00:59:12.413908
